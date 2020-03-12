@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bgcolor">
+
+
+    <TextView
+        android:id="@+id/tvEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME To Un-Authorized Parking Detection System"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="20dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text1"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="Number Plate:"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text1"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text=""
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/colorAccept"
+        android:layout_height="wrap_content"
+        android:text="ACCEPT" />
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/colorReject"
+        android:layout_height="wrap_content"
+        android:text="REJECT" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/colorView"
+        android:layout_height="wrap_content"
+        android:text="REGISTERED NUMBER" />
+
+
+
+</LinearLayout>
